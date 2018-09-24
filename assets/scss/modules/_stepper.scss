@@ -1,0 +1,16 @@
+.el-step__head {
+  &.is-progress {
+    color: $base-bl;
+    border-color: $base-bl;
+  }
+  &.is-finish {
+    color: $base-color;
+    border-color: $base-color;
+  }
+}
+
+.el-step__main {
+  .is-finish {
+    color: $base-color;
+  }
+}

@@ -1,0 +1,46 @@
+// タイトル
+.md-ttl {
+  line-height: 1;
+}
+
+.md-ttl--h1 {
+  font-family: $nunito;
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #4013d0;
+  text-align: left;
+}
+
+.md-ttl--label {
+  margin: 0 0 .5rem 0;
+  font-family: $base-fontFamily;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: $base-bl;
+}
+
+// テキスト
+.md-text {
+  font-weight: normal;
+  color: $base-bl;
+  text-align: left;
+}
+
+.md-text--copyright {
+  font-family: $nunito;
+  font-size: 1.2rem;
+  color: $base-bl;
+}
+
+.md-text--confirm-label {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: $base-bl;
+  background-color: #f7fbfe;
+}
+
+.md-text--confirm-item {
+  font-size: 1.4rem;
+  color: $base-bl;
+}

@@ -1,0 +1,51 @@
+// *************************************
+//
+//   Settings
+//   -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+// ----- Base Colors ----- //
+$base-bl: #191919;
+$base-wh: #fff;
+$base-color: #4013d0;
+
+// ----- Base Content ----- //
+$base-fontFamily: "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "YuGothic", "Yu Gothic", "游ゴシック", "游ゴシック体", "Lato", "arial", "helvetica", sans-serif;
+$baseFont-size: 1.6rem;
+$base-lineHeight: 1.6;
+$nunito: 'Nunito', sans-serif;
+
+// ----- Base Layout ----- //
+
+// ----- Content ----- //
+
+// ----- Layout ----- //
+$l-Width: 100%;
+
+.fle-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fle-w {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fle-r {
+  display: flex;
+  flex-direction: row;
+}
+
+.pos-r {
+  position: relative;
+}
+
+.pos-a {
+  position: absolute;
+}

@@ -1,0 +1,52 @@
+.md-btn--style01 {
+  padding: 1.5rem 5rem;
+  border: 1px solid #008f96;
+  background-color: #008f96;
+  transition: all .3s ease-out;
+
+  span {
+    transition: all .3s ease-out;
+    font-family: $base-fontFamily;
+    font-size: 1.4rem;
+    color: $base-wh;
+  }
+
+  &:hover {
+    transition: all .3s ease-out;
+    background-color: $base-wh;
+
+    span {
+      transition: all .3s ease-out;
+      color: #008f96;
+    }
+  }
+}
+
+.md-btn--style02 {
+  padding: 1.5rem 5rem;
+  border: 1px solid #f7fbfe;
+  background-color: #f7fbfe;
+  transition: all .3s ease-out;
+
+  span {
+    transition: all .3s ease-out;
+    font-family: $base-fontFamily;
+    font-size: 1.4rem;
+    color: $base-bl;
+  }
+
+  &:hover {
+    transition: all .3s ease-out;
+    background-color: $base-bl;
+
+    span {
+      transition: all .3s ease-out;
+      color: #f7fbfe;
+    }
+  }
+}
+
+.md-btn--download {
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
